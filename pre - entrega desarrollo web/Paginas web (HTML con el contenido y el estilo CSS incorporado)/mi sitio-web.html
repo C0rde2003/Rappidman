@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Sitio Web </title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Biografía</a></li>
+        <li><a href="#">Opiniones</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Contenido Principal -->
+  <main>
+    <section id="inicio">
+      <h1>Bienvenidos a mi sitio web oficial</h1>
+      <p>¡Hola! Soy Cordelia Micaela Alveolite Casanova, pero puedes llamarme Corde o Zingadorable. Soy una apasionada escritora española que ha encontrado su hogar en Argentina desde hace casi 17 años. Aquí, en mi rincón literario, compartiré contigo mis más preciadas creaciones.</p>
+    <p>La escritura es mi forma de expresión más auténtica, y cada página escrita es un pedacito de mi corazón. Me encanta sumergir a los lectores en mundos mágicos y emocionantes a través de mis novelas, explorando diferentes géneros y llenando cada historia de emociones, aventuras y sueños.</p>
+    <p>En este sitio web, podrás conocer más sobre mis obras, mis inspiraciones y mis proyectos futuros. Agradezco de corazón a todos los lectores que me acompañan en esta travesía literaria y espero que disfrutes sumergiéndote en mis creaciones tanto como yo disfruto escribiéndolas.</p>
+    <p>¡Descubre más sobre mis obras aqui <a href="file:///C:/Users/Compumar/Downloads/pre%20-%20entrega%20desarrollo%20web/Paginas%20web%20(HTML%20con%20el%20contenido%20y%20el%20estilo%20CSS%20incorporado)/descripcion%20de%20mis%20novelas.html"> en este link </a></p>
+  </section>
+
+  <section id="Opiniones">
+      <h2>Opiniones</h2>
+      <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
+
+<style>
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Contenido Principal */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Galería */
+#galeria img {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+/* Formulario de contacto */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Pie de Página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+</style>

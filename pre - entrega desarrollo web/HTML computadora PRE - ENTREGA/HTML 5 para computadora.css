@@ -1,0 +1,30 @@
+HTML 5
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página 5</title>
+    <style>
+        body {
+            font-family: "Montserrat", sans-serif;
+            background-color: #ececec;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #337ab7;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página 5</h1>
+    <p>Esta es la última página con estilos para computadoras.</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+HTML 4
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página 4</title>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            background-color: #fdfdfd;
+            color: #222;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #f0ad4e;
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página 4</h1>
+    <p>Esta es otra página con estilos para computadoras.</p>
+</body>
+</html>

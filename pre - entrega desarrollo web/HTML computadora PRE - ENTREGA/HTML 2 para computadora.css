@@ -1,0 +1,30 @@
+HTML.CSS 2
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página 2</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", sans-serif;
+            background-color: #fff;
+            color: #444;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #00a651;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página 2</h1>
+    <p>Esta es otra página con estilos para computadoras.</p>
+</body>
+</html>

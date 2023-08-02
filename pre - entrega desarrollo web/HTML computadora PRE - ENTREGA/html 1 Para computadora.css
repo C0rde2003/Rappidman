@@ -1,0 +1,28 @@
+html.css
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página 1</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #007bff;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página 1</h1>
+    <p>Esta es una página de ejemplo con estilos para computadoras.</p>
+</body>
+</html>

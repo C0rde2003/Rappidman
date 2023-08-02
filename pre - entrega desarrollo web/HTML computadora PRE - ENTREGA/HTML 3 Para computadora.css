@@ -1,0 +1,29 @@
+HTML 3
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página 3</title>
+    <style>
+        body {
+            font-family: "Open Sans", sans-serif;
+            background-color: #f9f9f9;
+            color: #555;
+            text-align: center;
+            padding: 60px;
+        }
+
+        h1 {
+            color: #d9534f;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido a la Página 3</h1>
+    <p>Esta es otra página con estilos para computadoras.</p>
+</body>
+</html>
